@@ -5,8 +5,8 @@
 
 /* hero background image */
 .bgimage {
-  height:100vh;
-  background: url('images/heroImage.jpeg');
+  height:160vh;
+  background: url('images/heroHello.jpg');
   background-size:cover;
   position:relative;
 }
@@ -18,12 +18,12 @@
   font-size: 2rem;
 }
 .hero-text {
-  text-align: center;
+  text-align: left;
   position: absolute;
-  top: 50%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: whitesmoke;
 }
 
 /* spacing on all sections */
