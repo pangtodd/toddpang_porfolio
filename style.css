@@ -3,17 +3,22 @@
   background-color: black;
 }
 
+.darkmode {
+  color: white;
+  background:black;
+}
+
 /* hero background image */
 .bgimage {
   height:100vh;
-  background: url('images/HeroHelloCropped.jpg');
+  background: url('images/herobackground\ Test.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position:relative;
 }
 /* text css above hero image*/
 .hero_title {
-  font-size: 4.5rem;
+  font-size: 6.5rem;
 }
 .hero_desc {
   font-size: 2rem;
@@ -21,15 +26,16 @@
 .credit-text{
   text-align: left;
   position: absolute;
-  top: 97%;
-  left: 20%;
+  top: 30%;
+  left: 30%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 .hero-text {
   text-align: right;
   position: absolute;
-  top: 80%;
-  left: 60%;
+  top: 90%;
+  left: 70%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -40,8 +46,14 @@
   padding-top: 4rem;
 }
 
+.card-body{
+  background-color: black;
+}
+
 #contact {
   padding-bottom: 4rem;
+  background: black;
+  background-color:black;
 }
 
 /* about section image css */
@@ -84,4 +96,5 @@
 #footer {
   background-color: #808080;
   text-align: center;
+  background;black;
 }

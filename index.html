@@ -10,15 +10,17 @@
   <script src="https://kit.fontawesome.com/5cfa004365.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body>  
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
         <div class="container">
-            <a class="navbar-brand" href="#">Todd Pangilinan</a>
+            <!-- <a class="navbar-brand" href="#">Todd Pangilinan</a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- <a class="navbar-brand" href="#">Todd Pangilinan</a> -->
                 <ul class="navbar-nav ms-auto">
+                    <li class="navbar-brand nav-link" href="#home">Todd Pangilinan</li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
@@ -40,297 +42,303 @@
         </div>
     </nav>
 
-    <!-- main banner -->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class = "row">
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 credit-text">
-                    <p><a href= "https://www.flickr.com/photos/major_clanger/">photo credit: Major Clanger </a></p>
+    <div class="darkmode">
+        <!-- main banner -->
+        <section class="bgimage" id="home">
+            <div class="container-fluid">
+                <div class = "row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 credit-text">
+                        <h1 class="hero_title">Todd Pangilinan</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hero-text">
+                        <p class="hero_desc">Full stack developer. Making things go.</p>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 hero-text">
-                    <h2 class="hero_title">I'm Todd <br> Pangilinan</h2>
-                    <p class="hero_desc">Junior dev. Making things go.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- about section-->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="images/toddpang Cropped.jpg" class= "imageAboutPage" alt="">
-                </div>
+        <!-- about section-->
+        <section id="about">
+            <div class="container mt-4 pt-4">
+                <h1 class="text-center">About Me</h1>
+                <div class="row mt-4">
+                    <div class="col-lg-4">
+                        <img src="images/toddpang Cropped.jpg" class= "imageAboutPage" alt="">
+                    </div>
 
-                <div class="col-lg-8">
-                    <p>
+                    <div class="col-lg-8">
+                        <p>
+                            
+                        </p>
+                        <div class="row mt-3">
+                            <p>Hi, I'm Todd. I'm starting my second career as a software engineer. I love solving problems and taking things apart, currently doing so in React, Ruby on Rails, and JavaScript. Previously, I solved problems in the unpredictible industry of higher-education events. I know how to work with a team, navigate unfamiliar territory towards a goal, and how to communicate with stakeholders.</p>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Name: Todd Pangilinan</li>
+                                    <li>(hint: Pangilinan rhymes with "hang a linen")
+                                    </li>
+                                    <li>Location: Portland, OR</li>
+                                    <li>full stack developer</li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>React | Ruby on Rails | JavaScript | CSS | HTML | basic Python</li>
+                                    <li>Life-long tinkerer. If the washing machine breaks down, I'm researching how to fix it (maybe while taking it apart).</li>
+                                </ul>
+                            </div>
+                        </div>
                         
-                    </p>
-                    <div class="row mt-3">
-                        <p>Hi, I'm Todd. I'm starting my second career as a software engineer. I love solving problems and taking things apart, currently doing so in React, Ruby on Rails, and JavaScript. Previously, I solved problems in the unpredictible industry of higher-education events. I know how to work with a team, navigate unfamiliar territory towards a goal, and how to communicate with stakeholders.</p>
                     </div>
-                    <div class="row mt-3">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Name: Todd Pangilinan</li>
-                                <li>(hint: Pangilinan rhymes with "hang a linen")
-                                </li>
-                                <li>Location: Portland, OR</li>
-                                <li>Junior software developer</li>
+                </div>
+        </section>
+        <!-- projects section-->
+        <section id="projects">
+            <div class="container mt-3">
+                <h1 class="text-center">Projects</h1>
+                <div class="row">
+                    <div class="col-lg-4 mt-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/market Cropped.jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Market website (Ruby on rails)</h4>
+                                <br>
+                                <p class="card-text">
+                                A Ruby on Rails site w/full CRUD functionality and Authorization via Devise.</p>
+                                <div class="text-center">
+                                    <a href="https://github.com/pangtodd/marios_marketplace" class="btn btn-success">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>React | Ruby on Rails | JavaScript | CSS | HTML | basic Python</li>
-                                <li>Life-long tinkerer. If the washing machine breaks down, I'm researching how to fix it (maybe while taking it apart).</li>
-                            </ul>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/niteoutr Cropped.jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Nite Outr (APIs, JavaScript)</h4>
+                                <br>    
+                                <p class="card-text">Team project that takes user input and pulls from two APIs (Yelp and Google maps) to help plan a night out.</p>
+                                <div class="text-center">
+                                    <a href="https://github.com/AaronDBoyd/Nite_Outr" class="btn btn-success">GitHub</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/exchange Cropped.jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Exchange rate (API/JavaScript)</h4>
+                                <br>
+                                <p class="card-text">API project which allows users to look up currency values.</p>
+                                <div class="text-center">
+                                    <a href="https://github.com/pangtodd/exchange_rate" class="btn btn-success">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-4 mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/pig Cropped.jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Pig Dice (JavaScript/OOP)</h4>
+                                <br>
+                                <p class="card-text">Simple game which demonstrates object orientated programming in JavasScript. More info on <a href="https://github.com/pangtodd/PigDiceV2.git">GitHub.</a> .</p>
+                                <div class="text-center">
+                                    <a href=" https://pangtodd.github.io/PigDiceV2/" class="btn btn-success">Game</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/pizza Cropped.jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                Pizza Parlor (JavaScript)</h4>
+                                <br>
+                                <p class="card-text">Mainly an exercise in OOP in JavaScript, a mock website which takes user input to create a pizza order.</p>
+                                <div class="text-center">
+                                    <a href=" https://pangtodd.github.io/PizzaParlor/" class="btn btn-success">website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/links Cropped.jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Links</h4>
+                                <br>
+                                <p class="card-text">See more projects on my GitHub, more work history on my Linkedin. Or just check out my resume.<br></p>
+                                <div class="text-center">
+                                    <a href="https://github.com/pangtodd/" class="btn btn-success">GitHub</a>
+                                    <a href="https://www.linkedin.com/in/todd-pang" class="btn btn-success">Linkedin</a>
+                                    <a href="https://drive.google.com/file/d/1nEzmqa0AlEAP-dGnRk9pEMD4BhzrRUE7/view?usp=sharing" class="btn btn-success">Resume</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <h1 class="text-center">Skills</h1>
+                <div class="row">
                     
-                </div>
-            </div>
-    </section>
-    <!-- projects section-->
-    <section id="projects">
-        <div class="container mt-3">
-            <h1 class="text-center">Projects</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/market Cropped.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Market website (Ruby on rails)</h4>
-                            <br>
-                            <p class="card-text">
-                              A Ruby on Rails site w/full CRUD functionality and Authorization via Devise.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/pangtodd/marios_marketplace" class="btn btn-success">GitHub</a>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class="fas servicesIcon fa-laptop-code"></i>
+                                <h4 class="card-title mt-3">languages</h4>
+                                <ul>
+                                    <li>React</li>
+                                    <li>Ruby on Rails</li>
+                                    <li>JavaScript</li>
+                                    <li>HTML/CSS</li>
+                                <li>Python (basic, self-taught)</li>
+                                </ul>
                             </div>
-                        </div>
+                        </div>  
                     </div>
-                </div>
 
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/niteoutr Cropped.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Nite Outr (APIs, JavaScript)</h4>
-                            <br>    
-                            <p class="card-text">Team project that takes user input and pulls from two APIs (Yelp and Google maps) to help plan a night out.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/pangtodd/exchange_rate" class="btn btn-success">GitHub</a>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class='far servicesIcon fa-check-circle'></i>
+                                <h4 class="card-title mt-3">Tech skills</h4>
+                                <ul>
+                                <li>Test Driven Development</li>
+                                <li>Object Oriented Programming</li>
+                                <li>Pair programming</li>
+                                <li>Verisioning control (Git)</li>
+                                </ul>
                             </div>
-                        </div>
+                        </div>  
                     </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/exchange Cropped.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Exchange rate (API/JavaScript)</h4>
-                            <br>
-                            <p class="card-text">API project which allows users to look up currency values.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/pangtodd/exchange_rate" class="btn btn-success">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/pig Cropped.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Pig Dice (JavaScript/Object Oriented Programming)</h4>
-                            <p class="card-text">Simple game which demonstrates object orientated programming in JavasScript. More info on <a href="https://github.com/pangtodd/PigDiceV2.git">GitHub.</a> .</p>
-                            <div class="text-center">
-                                <a href=" https://pangtodd.github.io/PigDiceV2/" class="btn btn-success">Game</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/pizza Cropped.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">
-                              Pizza Parlor (JavaScript)</h4>
-                              <br>
-                            <p class="card-text">Mainly an exercise in OOP in JavaScript, a mock website which takes user input to create a pizza order.</p>
-                            <div class="text-center">
-                                <a href=" https://pangtodd.github.io/PizzaParlor/" class="btn btn-success">website</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/links Cropped.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Links</h4>
-                            <br>
-                            <p class="card-text">See more projects on my GitHub, more work history on my Linkedin. Or just check out my resume.<br></p>
-                            <div class="text-center">
-                                <a href="https://github.com/pangtodd/" class="btn btn-success">GitHub</a>
-                                <a href="https://www.linkedin.com/in/todd-pang/" class="btn btn-success">Linkedin</a>
-                                <a href="https://drive.google.com/file/d/1nEzmqa0AlEAP-dGnRk9pEMD4BhzrRUE7/view?usp=sharing" class="btn btn-success">Resume</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <section id="skills">
-        <div class="container">
-            <h1 class="text-center">Skills</h1>
-            <div class="row">
-                
-                <div class="col-lg-4 mt-4">
+                    <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <i class="fas servicesIcon fa-laptop-code"></i>
-                            <h4 class="card-title mt-3">languages</h4>
+                            <i class="fas servicesIcon fa-people-group"></i>
+                            <h4 class="card-title mt-3">collaboration</h4>
+                            <p class="card-text mt-3"><p>
+
                             <ul>
-                                <li>React</li>
-                                <li>Ruby on Rails</li>
-                                <li>JavaScript</li>
-                                <li>HTML/CSS</li>
-                            <li>Python (basic, self-taught)</li>
+                                <li>In events, I spent years building partnerships to accomplish goals. Skills (and things I value):</li>
+                                    <ul>
+                                        <li>Empathy-based approach</li>
+                                        <li>Collaboration/honest negotiation</li>
+                                        <li>Communication (in-person, written)</li>
+                                    </ul>
                             </ul>
                         </div>
                     </div>  
                 </div>
+                </div>
 
-                <div class="col-lg-4 mt-4">
+                <div class="row">
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class="fas servicesIcon fa-briefcase"></i>
+                                <h4 class="card-title mt-3">Work skills</h4>
+                                <ul class="card-text mt-3">
+                                <li>Project management</li>
+                                <li>Leadership</li>
+                                <li>Creative problem solving</li>
+                                <li>Time management</li>
+                                <li>Adaptability</li>
+                                <li>Google/Microsoft suite</li>
+                                </ul>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <i class='far servicesIcon fa-check-circle'></i>
-                            <h4 class="card-title mt-3">Tech skills</h4>
-                            <ul>
-                              <li>TDD</li>
-                              <li>OOP</li>
-                              <li>Pair programming</li>
-                              <li>Verisioning control (Git)</li>
-                            </ul>
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">Research/Curiousity</h4>
+                            <p class="card-text mt-3"> I enjoy learning and I'm curious about how things work. Throughout my career, when others have said, "I don't know how to do that," I've said, <b>"let's Google it."</b>
+                            </p>
                         </div>
                     </div>  
-                </div>
-                <div class="col-lg-4 mt-4">
-                  <div class="card servicesText">
-                      <div class="card-body">
-                          <i class="fas servicesIcon fa-people-group"></i>
-                          <h4 class="card-title mt-3">collaboration</h4>
-                          <p class="card-text mt-3">In events, I spent years building partnerships to accomplish goals. Skills (and things I value):</p>
-                          <ul>
-                            <li>Empathy</li>
-                            <li>Collaboration</li>
-                            <li>Negotiation</li>
-                            <li>Communication (in-person, written)</li>
-                          </ul>
-                      </div>
-                  </div>  
-              </div>
-            </div>
+                    </div>
 
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class="fas servicesIcon fa-briefcase"></i>
-                            <h4 class="card-title mt-3">Work skills</h4>
-                            <ul class="card-text mt-3">
-                              <li>Project management</li>
-                              <li>Leadership</li>
-                              <li>Creative problem solving</li>
-                              <li>Time management</li>
-                              <li>Adaptability</li>
-                              <li>Google/Microsoft suite</li>
-                            </ul>
-                        </div>
-                    </div>  
-                </div>
-                <div class="col-lg-4 mt-4">
-                  <div class="card servicesText">
-                      <div class="card-body">
-                          <i class='fas servicesIcon fa-search'></i>
-                          <h4 class="card-title mt-3">Research/Curiousity</h4>
-                          <p class="card-text mt-3"> I enjoy learning and I'm curious about how things work. Throughout my career, when others have said, "I don't know how to do that," I've said, <b>"let's Google it."</b>
-                          </p>
-                      </div>
-                  </div>  
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-wrench'></i>
-                            <h4 class="card-title mt-3">build/fix</h4>
-                            <p class="card-text mt-3">I have a track record of creating/fixing things.</p>
-                            <ul>
-                              <li>created COVID protocols for classes and events</li>
-                              <li>established on-call system for office</li>
-                              <li>at home, I've repaired appliances, cars, and bicycles.</li>
-                              <li>at home, I've built tube amps for fun.</li>
-                            </ul>
-                          </div>
-                    </div>  
+                    <div class="col-lg-4 mt-4">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class='fas servicesIcon fa-wrench'></i>
+                                <h4 class="card-title mt-3">build/fix</h4>
+                                <ul>
+                                <li>I have a track record of fixing and building things:</li>
+                                    <ul>
+                                        <li>created campus-wide COVID protocols</li>
+                                        <li>established on-call system for office</li>
+                                        <li>repaired appliances, cars, and bicycles.</li>
+                                        <li>Built guitar tube amps for fun.</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- contact section-->
-    <section id="contact">
-        <div class="container mt-3 contactContent">
-            <h1 class="text-center">Contact Me</h1>
-              <div class="row mt-4">
-                  <div class="col-lg-6">
-                      <p>I'm in Portland, but also on the internet; I'm comfortable working remotely!</p>
-                      <img src = "images/PDX Cropped.jpg" alt = "Portland">
+        <!-- contact section-->
+        <section id="contact">
+            <div class="container mt-3 contactContent">
+                <h1 class="text-center">Contact Me</h1>
+                <div class="row mt-4">
+                    <div class="col-lg-6">
 
-                  </div>
-                <div class="col-lg-6">
-                    <p>contact me at <b>pang.todd@gmail.com</b>. Or fill out this form.</p>
-                    <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control mt-3" placeholder="Email">
-                        <input type="text" class="form-control mt-3" placeholder="Subject">
-                        <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                        </div>
-                    </form>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
-                    
+                        <p>I'm in Portland, but also on the internet; I'm comfortable working remotely!</p>
+                        <img src = "images/PDX Cropped.jpg" alt = "Portland">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>contact me at <b>pang.todd@gmail.com</b>. Or fill out this form.</p>
+                        <form>
+                            <input type="text" class="form-control form-control-lg" placeholder="Name">
+                            <input type="email" class="form-control mt-3" placeholder="Email">
+                            <input type="text" class="form-control mt-3" placeholder="Subject">
+                            <div class="mb-3 mt-3">
+                                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                        
+                    </div>
+
                 </div>
-
             </div>
-        </div>
-    </section>
-    <!-- footer section-->
-    <footer id="footer">
-        <div class="container-fluid">
-            <div class="social-icons mt-4">
-                <a href=""https://www.github.com/pangtodd" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/todd-pang" target="_blank"><i class="fab fa-linkedin"></i></a> 
-                <a href="mailto: pang.todd@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </section>
+        <!-- footer section-->
+        <footer id="footer">
+            <div class="container-fluid">
+                <div class="social-icons mt-4">
+                    <a href=""https://www.github.com/pangtodd" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/todd-pang" target="_blank"><i class="fab fa-linkedin"></i></a> 
+                    <a href="mailto: pang.todd@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <!-- load javascript after loading all html content -->
-    <script src="script/script.js"></script>
-
+        <!-- load javascript after loading all html content -->
+        <script src="script/script.js"></script>
+    </div>
 </body>
 
 </html>
