@@ -1,5 +1,4 @@
-/* display background color black on navbar scroll */
-.navbarScroll, .navbarDark {
+.navbarScroll {
   background-color: black;
 }
 
@@ -8,7 +7,6 @@
   background:black;
 }
 
-/* hero background image */
 .bgimage {
   height:100vh;
   background: url('images/herobackground\ Test.jpg');
@@ -16,7 +14,7 @@
   background-repeat: no-repeat;
   position:relative;
 }
-/* text css above hero image*/
+
 .hero_title {
   font-size: 6.5rem;
 }
@@ -40,7 +38,6 @@
   color: white;
 }
 
-/* spacing on all sections */
 #about, #skills, #projects, #contact {
   margin-top: 4rem;
   padding-top: 4rem;
@@ -56,12 +53,10 @@
   background-color:black;
 }
 
-/* about section image css */
 .imageAboutPage {
   width: 100%;
 }
 
-/* services section css */
 .servicesText.card {
   height: 280px;
   cursor: pointer;
@@ -81,18 +76,19 @@
   border: 1px solid #008000;
 }
 
-/* social media icons styling */
 .social-icons {
   font-size: 36px;
   cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+
+.fa-github:hover,.fa-linkedin:hover, .fa-envelope:hover {
   color: #008000;
 }
+
 .fab {
   color: #000000;
 }
-/* footer styling */
+
 #footer {
   background-color: #808080;
   text-align: center;
