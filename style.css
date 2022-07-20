@@ -1,50 +1,65 @@
-/* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
+.navbarScroll, .navbarDark {
   background-color: black;
 }
 
-/* hero background image */
+.darkmode {
+  color: white;
+  background:black;
+}
+
 .bgimage {
   height:100vh;
-  background: url('images/herobackground.jpg');
-  background-size:cover;
+  background: url('images/herobackground\ Test.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   position:relative;
 }
-/* text css above hero image*/
+
 .hero_title {
-  font-size: 4.5rem;
+  font-size: 6vw;
 }
 .hero_desc {
-  font-size: 2rem;
+  font-size: 2vw;
+}
+.credit-text{
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 90%;
+  left: 70%;
   transform: translate(-50%, -50%);
-  color: whitesmoke;
+  color: white;
 }
-spacing on all sections
-#about, #services, #portfolio, #contact {
+
+#about, #skills, #projects, #contact {
   margin-top: 4rem;
   padding-top: 4rem;
+}
+
+.card-body{
+  background-color: black;
 }
 
 #contact {
   padding-bottom: 4rem;
 }
-/* about section image css */
+
 .imageAboutPage {
   width: 100%;
 }
 
-/* services section css */
-.servicesText.card {
-  height: 280px;
+.skillsText.card {
+  height: 300px;
   cursor: pointer;
 }
-.servicesIcon {
+.skillsIcon {
   font-size: 36px;
   text-align: center;
   width: 100%;
@@ -55,23 +70,31 @@ spacing on all sections
 .card:hover .servicesIcon {
   color: #008000;
 }
-.servicesText:hover {
+
+.skillsText:hover {
   border: 1px solid #008000;
 }
 
-/* social media icons styling */
+.pdx {
+  width:100%;
+  height: auto;
+}
+
 .social-icons {
   font-size: 36px;
   cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+
+.fa-github:hover,.fa-linkedin:hover, .fa-envelope:hover {
   color: #008000;
 }
+
 .fab {
   color: #000000;
 }
-/* footer styling */
+
 #footer {
   background-color: #808080;
   text-align: center;
+  /* background;black; */
 }
