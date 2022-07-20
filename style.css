@@ -55,8 +55,9 @@
   width: 100%;
 }
 
+
 .skillsText.card {
-  height: 300px;
+  height: 310px;
   cursor: pointer;
 }
 .skillsIcon {
