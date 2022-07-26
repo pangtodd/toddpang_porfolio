@@ -55,7 +55,9 @@
   width: 100%;
 }
 
-
+.portfolioContent.card{
+  height: 580px;
+}
 .skillsText.card {
   height: 310px;
   cursor: pointer;
