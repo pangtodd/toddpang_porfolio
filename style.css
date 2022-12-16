@@ -18,9 +18,11 @@
 .hero_title {
   font-size: 4.5rem;
 }
+
 .hero_desc {
-  font-size: 1.5rem;git
+  font-size: 1.5rem;
 }
+
 .tagline-text{
   position: absolute;
   text-align: left;
@@ -44,7 +46,13 @@
 }
 
 .card-body{
+  display: grid;
   background-color: black;
+
+}
+
+.btn {
+  margin-right:10px;
 }
 
 #contact {
@@ -58,16 +66,32 @@
 .portfolioContent.card{
   height: 580px;
 }
+
 .skillsText.card {
   height: 310px;
   cursor: pointer;
 }
+
 .skillsIcon {
   font-size: 36px;
   text-align: center;
   width: 100%;
 }
+
+.text-center {
+  display: flex;
+  /* margin: mt-auto; */
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+
+.card-text {
+  display: grid;
+}
+
 .card-title {
+  display: grid;
   text-align: center;
 }
 .card:hover .servicesIcon {
@@ -95,6 +119,8 @@
 .fab {
   color: #000000;
 }
+
+
 
 #footer {
   background-color: #808080;
