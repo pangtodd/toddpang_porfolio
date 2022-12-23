@@ -31,6 +31,7 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+
 .hero-text {
   position: absolute;
   text-align: right;
@@ -83,7 +84,6 @@
   /* margin: mt-auto; */
   justify-content: center;
   align-items: flex-end;
-  
 }
 
 .card-text {
@@ -94,6 +94,7 @@
   display: grid;
   text-align: center;
 }
+
 .card:hover .servicesIcon {
   color: #008000;
 }
@@ -119,8 +120,6 @@
 .fab {
   color: #000000;
 }
-
-
 
 #footer {
   background-color: #808080;
