@@ -31,6 +31,10 @@ I wanted to create a simple but nice looking static porfolio page. I used this [
 * No other known issues as of 7/16/22
 * If you notice mistakes or bugs, please email pang.todd@gmail.com
 
+## Notes
+* imgages were cropped at https://croppola.com/, use auto settings: ratio 4:3, crop size: small.
+
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
