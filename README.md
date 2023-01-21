@@ -27,12 +27,12 @@ I wanted to create a simple but nice looking static porfolio page. I used this [
 
 ## Known Bugs
 
-* Site renders okay-ish on mobile, but not perfect (hero image text is off and creates a margin on the right). I'm looking into if I can keep the current layout for the hero image and have it more responsive.
 * No other known issues as of 7/16/22
 * If you notice mistakes or bugs, please email pang.todd@gmail.com
 
 ## Notes
 * imgages were cropped at https://croppola.com/, use auto settings: ratio 4:3, crop size: small.
+* used https://www.opengraph.xyz/ to check the social media preview, and generate preview code for Twitter.
 
 
 ## License
