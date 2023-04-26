@@ -25,8 +25,9 @@
     <meta name="twitter:title" content="Todd Pangilinan, Web Developer">
     <meta name="twitter:description" content="Portfolio Website for Todd Pangilinan (JavaScript, React, Ruby HTML/CSS...and more)">
     <meta name="twitter:image" content="https://www.toddpang.com/images/ToddPangSmall.jpg">
-        
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://docs.google.com">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/5cfa004365.js" crossorigin="anonymous"></script>
@@ -112,6 +113,19 @@
           <div class="row">
             <div class="col-lg-4 mt-4">
               <div class="card portfolioContent">
+                <img class="card-img-top" src="images/russellSite2 Cropped.png" alt="screenshot of website for Mark Russell" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Client site (HTML, CSS, JavaScript)</h4>
+                  <p class="card-text">Responsive website for author client, built using HTML, CSS, JavaScript and Bootstrap. Working directly with the client, I designed, adjusted and deployed the site.</p>
+                  <div class="text-center">
+                    <a href="https://markrussellbooks.com" class="btn btn-success">MarkRussellBooks.com</a>
+                    <a href="https://github.com/pangtodd/MarkRussellSite.git" class="btn btn-success">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-4">
+              <div class="card portfolioContent">
                 <img class="card-img-top" src="images/haicueCropped.png" alt="screenshot of haicue game/haiku entry" style="width:100%">
                 <div class="card-body">
                   <h4 class="card-title">HaiCue (React, TypeScript, Express)</h4>
@@ -136,6 +150,9 @@
                 </div>
               </div>
             </div>
+         
+          </div>
+          <div class="row">
             <div class="col-lg-4 mt-4">
               <div class="card portfolioContent">
                 <img class="card-img-top" src="images/bikeshopCropped.jpg" alt="several vintage bikes" style="width:100%">
@@ -149,8 +166,7 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
+
             <div class="col-lg-4 mt-4">
               <div class="card portfolioContent">
                 <img class="card-img-top" src="images/niteoutr Cropped.jpg" alt="people toasting glasses" style="width:100%">
@@ -162,18 +178,8 @@
                   </div>
                 </div>
               </div>
-            </div><div class="col-lg-4 mt-4">
-              <div class="card portfolioContent">
-                <img class="card-img-top" src="images/exchange Cropped.jpg" alt="graph of currency" style="width:100%">
-                <div class="card-body">
-                  <h4 class="card-title">Exchange Rate (API/JavaScript)</h4>
-                  <p class="card-text">Project which connects to an existing exchange API and allows users to look up currency values.</p>
-                  <div class="text-center">
-                    <a href="https://github.com/pangtodd/exchange_rate" class="btn btn-success">GitHub</a>
-                  </div>
-                </div>
-              </div>
             </div>
+          
             <div class="col-lg-4 mt-4">
               <div class="card portfolioContent">
                 <img class="card-img-top" src="images/links Cropped.jpg" alt="corkboard with pinned strings" style="width:100%">
